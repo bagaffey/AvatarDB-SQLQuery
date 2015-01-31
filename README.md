@@ -5,12 +5,12 @@ This windows form application uses the WSAPI.RADplus.XML.XMLservice which is a A
 
 REQUIREMENTS:
 * Avatar 2014 from Netsmart
-* InterSystem Caché (2010)
+* InterSystems Caché (2010)
 * Installation and activation of Avatar web services API.
 * Configure the web service reference so that it is connecting a database.
 
 AUTHOR:
-Barry Gaffey II
+Barry Gaffey
   
 DATE CREATED:
 July 22nd, 2013
