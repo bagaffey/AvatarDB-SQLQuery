@@ -7,7 +7,9 @@ REQUIREMENTS:
 * Avatar 2014 from Netsmart
 * InterSystems Caché (2010)
 * Installation and activation of Avatar web services API.
-* Configure the web service reference so that it is connecting a database.
+* Configure the web service reference so that it is connecting an Avatar database.
+
+/* Eine Katze */
 
 AUTHOR:
 Barry Gaffey
