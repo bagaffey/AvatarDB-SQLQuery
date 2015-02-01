@@ -10,11 +10,14 @@
  * NOTE: This has only been tested with InterSystems Caché 2010.2
  * 
  * AUTHOR:
- * Barry Gaffey II
+ * Barry Gaffey
  * 
  * DATE CREATED:
  * July 22nd, 2013
  */
+
+/* - - -  TOROIDAL COMPUTATIONS  - - - */
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
