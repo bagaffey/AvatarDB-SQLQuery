@@ -7,7 +7,7 @@
  * This tool is particularly helpful during widget, reports, or any other reporting development so that you can get results from your widget instantly.
  * The result is returned in XML format; however, you can switch how that data is displayed i.e. you can view the returned XML or view the data within a datagrid (which is obviously 
  * easier on the eyes). The XML is useful when you're debugging your query to see where something may have gone wrong as the full error message from the SOAP web service would be displayed here.
- * NOTE: This has only been used with InterSystems Caché 2010.2
+ * NOTE: This has only been tested with InterSystems Caché 2010.2
  * 
  * AUTHOR:
  * Barry Gaffey II
@@ -38,8 +38,8 @@ namespace CacheXMLService
         String newline = System.Environment.NewLine;
         String runtimeMode = "0";
         String sqlQuery = "";
-        String systemCode = "SBOX";
-        String userName = "CSM";
+        String systemCode = "SYS";
+        String userName = "USER";
         String password = "PASS1";
         String XMLdata2export = "";
 
