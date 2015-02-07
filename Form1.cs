@@ -19,8 +19,6 @@
  * February 1st, 2015
  */
 
-/* - - -  TOROIDAL COMPUTATIONS  - - - */
-
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -95,13 +93,13 @@ namespace CacheXMLService
 
         /**
          * <summary>When the submit button is clicked, this method is executed. This will get the wheels turning, construct the SOAP message and send it
-         * it the specified XMLService.</summary>
+         * to the referenced Avatar web service.</summary>
          */
         private void btSubmit_Click(object sender, EventArgs e)
         {
             /* Collect parameters for the Web Service. */
             runtimeMode = ascertainRuntimeMode(); // runtime mode
-            sqlQuery = SQLtextbox.Text; // SQL query
+            sqlQuery = SQLtextbox.Text; // The SQL query
             
             /* builds and sends SOAP message. */
             XMLService.XMLResponse response = submitSQL(buildLoginInfo(), sqlQuery, runtimeMode);
@@ -130,16 +128,13 @@ namespace CacheXMLService
 
             try
             {
-                //int tempDelete = 1; // used for memory editing
-                //TextReader sr = new StringReader(XMLtext);
+                // TextReader sr = new StringReader(XMLtext);
                 XmlReader xmlFile;
                 xmlFile = XmlReader.Create(new StringReader(XMLtext));
                 DataSet ds = new DataSet();
                 DataSet ds2 = new DataSet();
                 ds2.Tables.Add();
                 ds.ReadXml(xmlFile);
-
-                // dataGridView1.DataSource = ds.Tables[1]; // old
 
                 /* test loop */
                 int nub = 0;
@@ -195,7 +190,7 @@ namespace CacheXMLService
                     }
                 }
 
-                /* Delete the last row, you nub */
+                /* Delete the last row */
                 ds2.Tables[0].Rows.Remove(ds2.Tables[0].Rows[ds2.Tables[0].Rows.Count - 1]);
 
                 dataGridView1.DataSource = ds2.Tables[0]; 
@@ -203,7 +198,7 @@ namespace CacheXMLService
                 /* This numbers the rows. */
                 //foreach (DataGridViewRow row in dataGridView1.Rows)
                 //{
-//                    row.HeaderCell.Value = String.Format("{0}", row.Index + 1);
+//                    row.HeaderCell.Value = String.Format("{0}",row.Index+1);
   //              }
             }
             catch (Exception ex)
@@ -283,7 +278,7 @@ namespace CacheXMLService
         }
 
         /**
-         * <summary>This is the about dialog box for this desktop app</summary>
+         * <summary>This is about dialog box for this desktop app</summary>
          * */
         public static class AboutDialog
         {
@@ -395,7 +390,7 @@ namespace CacheXMLService
          */
         private void helpToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            /* Show help information to explain more about the program's function. */
+            /* Show help information for this program. */
             HelpDialog.ShowDialog();
         }
 
