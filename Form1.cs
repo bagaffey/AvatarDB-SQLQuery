@@ -278,7 +278,7 @@ namespace CacheXMLService
         }
 
         /**
-         * <summary>This is about dialog box for this desktop app</summary>
+         * <summary>This is the about dialog for this desktop app</summary>
          * */
         public static class AboutDialog
         {
