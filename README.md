@@ -9,8 +9,6 @@ REQUIREMENTS:
 * Installation and activation of Avatar web services API.
 * Configure the web service reference so that it is connecting an Avatar database.
 
-/* Eine Katze */
-
 AUTHOR:
 Barry Gaffey
   
