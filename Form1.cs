@@ -136,7 +136,6 @@ namespace CacheXMLService
                 ds2.Tables.Add();
                 ds.ReadXml(xmlFile);
 
-                /* test loop */
                 int nub = 0;
                 foreach (DataRow row in ds.Tables[1].Rows)
                 {
