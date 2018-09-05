@@ -48,7 +48,7 @@ namespace CacheXMLService
         String XMLdata2export = "";
 
         /**
-         * <summary>This is will initialize the main WinForm of this program.</summary>
+         * <summary>This initializes the main WinForm of this program.</summary>
          */
         public MainForm()
         {
