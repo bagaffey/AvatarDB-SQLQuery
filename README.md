@@ -7,7 +7,7 @@ SOFTWARE REQUIREMENTS:
 * Avatar 2014 from Netsmart
 * InterSystems Caché (2010)
 * Installation and activation of Avatar web services API.
-* Configure the web service reference so that it is connecting an Avatar database.
+* Configure the web service reference so that it is connecting to an Avatar database web service endpoint.
 * The proxy class for XMLService was not included, you should regenerate this proxy class in your own environment by pointing it to where this web service is hosted in your environment.
 
 AUTHOR:
