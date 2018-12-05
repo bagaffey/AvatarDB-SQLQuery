@@ -8,7 +8,7 @@
  * any other reporting development so that you can get results from your widget instantly.
  * The result is returned in XML format; however, you can switch how that data is displayed i.e. you can view the returned XML or 
  * view the data within a datagrid (which is easier on the eyes). The XML is useful when you're debugging your query to see 
- * where something may have gone wrong as the full error message from the SOAP web service would be displayed here.
+ * where something may have gone wrong as the full error message from the SOAP web service would be displayed there.
  * NOTE: This has only been tested with InterSystems Caché 2010.2
  * 
  * AUTHOR:
@@ -16,9 +16,6 @@
  * 
  * DATE CREATED:
  * July 22nd, 2013
- *
- * DATE MODIFIED
- * February 1st, 2015
  */
 
 using System;
