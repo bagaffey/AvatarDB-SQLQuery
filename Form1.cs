@@ -33,9 +33,6 @@ using System.Xml.Linq;
 
 namespace CacheXMLService
 {
-    /**
-     * <summary>Constructor for the main form</summary>
-     */
     public partial class MainForm : Form
     {
         String newline = System.Environment.NewLine;
