@@ -7,8 +7,12 @@ SOFTWARE REQUIREMENTS:
 * Avatar 2014 from Netsmart
 * InterSystems Caché (2010)
 * Installation and activation of Avatar web services API.
+* .NET Framework 4.0 or later
+
+BUILDING REQUIREMENTS
+* Visual Studio 2012 or later is recommended for building and modifying the project. This application is a C# Windows Forms application targeting version 4.5 of the .NET framework.
 * Configure the web service reference so that it is connecting to an Avatar database web service endpoint.
-* The proxy class for XMLService was not included, you should regenerate this proxy class in your own environment by pointing it to where this web service is hosted in your environment.
+* The proxy class for XMLService was not included, you should regenerate this proxy class in your own environment by pointing it to where this web service is hosted within your Avatar environment.
 
 AUTHOR:
 Barry Gaffey
