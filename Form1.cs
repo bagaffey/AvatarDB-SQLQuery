@@ -91,7 +91,7 @@ namespace CacheXMLService
          * <summary>When the submit button is clicked, this method is executed. This will get the wheels turning, construct the SOAP message and send it
          * to the referenced Avatar web service.</summary>
          */
-        private void btSubmit_Click(object sender, EventArgs e)
+        private void btnSubmit_Click(object sender, EventArgs e)
         {
             /* Collect parameters for the Web Service. */
             runtimeMode = ascertainRuntimeMode(); // runtime mode
