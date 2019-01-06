@@ -226,7 +226,7 @@ namespace CacheXMLService
             this.btSubmit.TabIndex = 8;
             this.btSubmit.Text = "Submit";
             this.btSubmit.UseVisualStyleBackColor = true;
-            this.btSubmit.Click += new System.EventHandler(this.btSubmit_Click);
+            this.btSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // saveXMLFileDialog
             // 
