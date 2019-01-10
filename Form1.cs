@@ -79,11 +79,11 @@ namespace CacheXMLService
             }
             catch (InvalidOperationException e)
             {
-                XMLService.XMLResponse err = new XMLService.XMLResponse();
-                err.resultCode = "-1";
-                err.resultMessage = e.Message + newline + "A fatal exception was encountered, this is known to occur when the XMLService web service is not"
+                XMLService.XMLResponse Err = new XMLService.XMLResponse();
+                Err.resultCode = "-1";
+                Err.resultMessage = e.Message + newline + "A fatal exception was encountered, this is known to occur when the XMLService web service is not"
                     + " enabled in your system. Contact your Netsmart Representative for further information.";
-                return err;
+                return Err;
             }
         }
 
