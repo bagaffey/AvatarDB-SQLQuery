@@ -124,7 +124,6 @@ namespace CacheXMLService
 
             try
             {
-                // TextReader sr = new StringReader(XMLtext);
                 XmlReader xmlFile;
                 xmlFile = XmlReader.Create(new StringReader(XMLtext));
                 DataSet ds = new DataSet();
