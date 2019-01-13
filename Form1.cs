@@ -188,12 +188,6 @@ namespace CacheXMLService
                 ds2.Tables[0].Rows.Remove(ds2.Tables[0].Rows[ds2.Tables[0].Rows.Count - 1]);
 
                 dataGridView1.DataSource = ds2.Tables[0]; 
-
-                /* This numbers the rows. */
-                //foreach (DataGridViewRow row in dataGridView1.Rows)
-                //{
-//                    row.HeaderCell.Value = String.Format("{0}",row.Index+1);
-  //              }
             }
             catch (Exception ex)
             {
