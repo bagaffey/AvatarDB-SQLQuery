@@ -202,13 +202,12 @@ namespace CacheXMLService
          */
         private String ascertainRuntimeMode()
         {
-            String result = "0";
+            String Result = "0";
             if (rbtODBC.Checked)
-                result = "1";
+                Result = "1";
             else if (rbtDISPLAY.Checked)
-                result = "2";
-
-            return result;
+                Result = "2";
+            return (Result);
         }
 
         /**
