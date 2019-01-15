@@ -193,21 +193,6 @@ namespace CacheXMLService
             {
                 MessageBox.Show(ex.ToString());
             } 
-            ///* load XML */
-            //XDocument xdoc = XDocument.Parse(XMLtext);
-
-            ///* Run the query */
-            //var cols = from col in xdoc.Descendants("cols")
-            //           select new
-            //           {
-            //               Children = col.Descendants("col")
-            //           };
-
-            ///* Loop Through */
-            //foreach (var col in cols){
-            //    foreach(var coltitle in col.Children)
-            //        ResponseBox.Text += coltitle.Attribute("tit").Value;
-            //}
         }
 
         /**
