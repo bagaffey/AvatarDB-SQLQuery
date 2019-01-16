@@ -383,8 +383,8 @@ namespace CacheXMLService
          */
         private void saveXMLFileDialog_FileOk(object sender, CancelEventArgs e)
         {
-            string name = saveXMLFileDialog.FileName;
-            File.WriteAllText(name, XMLdata2export);
+            string Name = saveXMLFileDialog.FileName;
+            File.WriteAllText(Name, XMLdata2export);
         }
 
         private void displayXMLToolStripMenuItem_Click(object sender, EventArgs e)
