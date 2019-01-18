@@ -93,9 +93,9 @@ namespace CacheXMLService
          */
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            /* Collect parameters for the Web Service. */
+            /* Set parameters for the Web Service. */
             runtimeMode = ascertainRuntimeMode(); // runtime mode
-            sqlQuery = SQLtextbox.Text; // The SQL query
+            sqlQuery = SQLtextbox.Text;
             
             /* builds and sends SOAP message. */
             XMLService.XMLResponse response = submitSQL(buildLoginInfo(), sqlQuery, runtimeMode);
